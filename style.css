@@ -1,0 +1,362 @@
+/* BODY */
+.body-custom{
+
+    font-family: 'Nova Square', cursive;    
+}
+ 
+/* NAV BAR */
+.logo{
+
+    width: 100px;    
+}
+
+.link-custom{
+
+    text-decoration: none;
+    list-style-type:none;
+    color: grey;
+}
+
+/* HEADER */
+.titolo{
+
+    color: darkred;
+    letter-spacing: 40px;
+    font-size: 4rem;
+    font-family: 'Nova Square', cursive;
+}
+
+.testo-sezione1{
+
+    font-style: oblique;
+}
+
+.testo-sezione1::before{
+
+    content: open-quote;
+    color: darkred;
+    font-size:xx-large;
+
+}
+
+.testo-sezione1::after{
+
+    content: close-quote;
+    color: darkred;
+    font-size:xx-large;
+}
+
+.img-svizzera{
+
+    background: url(./mountains.png), 
+    linear-gradient(rgb(255,255,255), rgba(255,255,255,0)),
+    url(./switzerland-862870_1920.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+/* SEZIONE 1 */
+.testo-sezione1{
+
+    color: grey;
+}
+
+/* SEZIONE2 */
+.p-sezione2{
+
+    font-size: small;
+}
+
+
+/* SEZIONE 3 */
+.riga{
+
+    padding: 1px;
+    background-color: darkred;
+    position: relative;   
+}
+
+.riga::before{
+    
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: darkred;
+    border-style: groove;
+    position: absolute;
+    bottom: -10px;
+    left: 105px;
+   
+}
+
+/* SEZIONE 4 */
+
+.card-text-1{
+
+    font-size: small;
+    
+}
+
+.card-text-2{
+
+    font-size: small;
+    text-align: right;
+}
+
+
+.card-body-1{
+
+    margin-top: 100px;
+    
+    
+}
+
+.card-body-2{
+    margin-top: 100px;
+    
+}
+
+.card-title-2{
+
+    text-align: right;
+}
+
+/* SEZIONE 5 */
+
+.button{
+
+    background-color: darkred;
+    color: white;
+    border-style: none;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 45%;
+    
+}
+
+.sezione-5{
+
+    background-image: linear-gradient(white, #ececec );
+    
+    
+}
+
+
+/* SEZIONE 6 */
+
+.h2-6{
+
+    margin-left: 30px;
+}
+
+
+.verticale{
+
+    margin-left: 30px;
+    border-style: groove;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: darkred;
+    position:relative;
+}
+
+.verticale::before{
+
+    position:absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: darkred;
+    border-style: ridge;
+    left: -11px;
+    top: -1px;
+
+}
+
+.alberi{
+
+    background-image: url(./trees.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #ececec;
+}
+
+/* SEZIONE 7 */
+
+.img-7{
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border-style:groove;
+    border-color: darkred;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.h5-7{
+
+    color: darkred;
+}
+
+.p-7{
+
+    font-size:x-small ;
+    font-style: oblique;
+}
+
+.id-7{
+
+    color: darkred;
+    margin-top: 150px;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+      
+}
+
+.sfondo-7{
+
+    background-image: linear-gradient(#ececec,white);
+}
+
+.icone-7{
+
+    width:10%;
+
+}
+
+/* SEZIONE 8 */
+
+.img-8-1{
+
+width: 180px;
+height: 180px;
+border-radius: 50%;
+border-style:groove;
+border-color: darkred;
+padding: 5px;
+margin-left: 150px;
+margin-top: 50px;
+
+}
+
+.img-8-2{
+
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border-style:groove;
+    border-color: darkred;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    
+}
+
+.testo-8{
+
+    font-size: small;
+}
+
+.id-8{
+
+    color: darkred;
+    margin-left: 30px;
+    margin-top: 120px;
+    margin-bottom: -20px;
+}
+
+.margin-left-8{
+
+    margin-left: 30px;
+}
+
+.margin-right-8{
+
+    margin-right: 30px;
+}
+
+/* SEZIONE 9 */
+
+.img-9{
+
+    background-image: url(./other.png);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 100px;
+    
+}
+
+/* FOOTER */
+.div-f{
+    background-color: darkred;
+    height: 7vh;
+}
+
+.container-fluid-f{
+
+    background-color: darkred;
+    padding-top: 30px;
+    
+}
+
+.card-title-footer{
+    
+    color: white;
+}
+    
+
+.card-title-footer-2{
+
+    color: white;
+    padding-top: 50px;
+}
+
+.card-body-f1{
+
+    margin-left: 30px;
+    width: max-content;
+    font-size: small;
+    color: white;
+
+}
+
+ .card-body-f2{ 
+
+    font-size: small;
+    color: white;
+    padding-left: 300px;
+    
+}
+
+.card.f{
+
+    background-color: darkred;
+}
+
+.ul-f{
+
+    line-height: 25px;
+}
+    
+
+
+
+
+
+
